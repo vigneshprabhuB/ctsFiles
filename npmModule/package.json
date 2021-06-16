@@ -1,0 +1,12 @@
+{
+  "name": "area",
+  "version": "1.0.0",
+  "description": "Used to calculate area",
+  "main": "index.js",
+  "scripts": {
+   "startServe":"node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}  
+

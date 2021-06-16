@@ -1,0 +1,8 @@
+package codeLabs.entities;
+
+public class Tax {
+
+	private String itemType;
+	private float gstTax;
+
+}

@@ -1,0 +1,20 @@
+package codeLabs.entities;
+
+import java.util.List;
+
+public class Bill {
+	
+	private float totalBill;
+	private float discount;
+
+	private List<LineItem> lineItems;
+
+	public List<LineItem> getLineItems() {
+		return lineItems;
+	}
+
+	public void setLineItems(List<LineItem> lineItems) {
+		this.lineItems = lineItems;
+	}
+
+}

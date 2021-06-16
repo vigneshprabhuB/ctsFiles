@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down</title>
+    <style>
+       
+       nav{
+           width: 30%;
+           height: 100px;
+           text-align: center;
+    } 
+    .navButton{
+     padding: 10px;
+     display: inline-block;
+     background-color: crimson;
+    }
+  .menuOpt{
+      display: block;
+      position: absolute; 
+  }
+    .menuOpt{
+        display: none;
+    }
+    .navButton:hover .menuOpt{
+display: block;
+    }
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navButton">
+            <a href="#">Menu1</a>
+        </div>
+     
+        <div class="navButton">
+            <a href="#">Menu2</a>
+            <div class="menuOpt"> 
+             <div class="smenu">
+                <a href="#">Opt1</a>
+             </div>
+            <div class="smenu">
+                <a href="#">Opt2</a>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="navButton">
+            <a href="#">Menu3</a>
+
+        </div>
+    </nav>
+    
+</body>
+</html>

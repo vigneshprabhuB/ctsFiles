@@ -1,0 +1,65 @@
+<html>
+<script src="jquery.js"></script>
+<script src="Greater.js"></script>
+<script src="Greater.js"></script>
+<script src="app.js"></script>
+<script>
+function randomNumGenFn(n) {
+  
+  const t = 256;
+  let o,
+  e,
+  r;
+  function i() {
+    var n;
+    n = (new Date).getTime(),
+    e[r++] ^= 255 & n,
+    e[r++] ^= n >> 8 & 255,
+    e[r++] ^= n >> 16 & 255,
+    e[r++] ^= n >> 24 & 255,
+    r >= t && (r -= t)
+  }
+  if (!e) {
+    let n;
+    if (e = [
+    ], r = 0, window.crypto && window.crypto.getRandomValues) {
+      const t = new Uint8Array(32);
+      for (window.crypto.getRandomValues(t), n = 0; n < 32; ++n) e[r++] = t[n]
+    }
+    if (window.crypto) {
+      const t = window.crypto.random(32);
+      for (n = 0; n < t.length; ++n) e[r++] = 255 & t.charCodeAt(n)
+    }
+    for (; r < t; ) n = Math.floor(65536 * Math.random()),
+    e[r++] = n >>> 8,
+    e[r++] = 255 & n;
+    r = 0,
+    i()
+  }
+  function a() {
+    if (!o) {
+      for (i(), (o = n).init(e), r = 0; r < e.length; ++r) e[r] = 0;
+      r = 0
+    }
+    return o.next()
+  }
+  function c() {
+  }
+  return c.prototype.nextBytes = function (n) {
+    let t;
+    for (t = 0; t < n.length; ++t) n[t] = a()
+  },
+  new c
+}
+
+
+</script>
+
+<body>
+    Hi this is my first frame work
+    <img
+        src='data:image/png;base64,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' />
+</body>
+
+</html>
+  

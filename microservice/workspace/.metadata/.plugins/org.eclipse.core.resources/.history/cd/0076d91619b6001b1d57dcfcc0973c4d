@@ -1,0 +1,8 @@
+package com.project.cts;
+
+public class StaticClass {
+
+	public static int getCount() {
+		
+	}
+}

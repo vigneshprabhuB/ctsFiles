@@ -1,0 +1,9 @@
+package codeLabs.entities;
+
+public class LineItem {
+	private Item item;
+	private Tax tax;
+
+	
+
+}

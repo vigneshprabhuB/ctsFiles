@@ -1,0 +1,66 @@
+package com.project.cts;
+
+import java.util.List;
+
+public class Message {
+static Message ONE_POST;
+
+	private String post;
+
+	private List<Reply> replys;
+
+	public String getPost() {
+		return post;
+	}
+
+	public void setPost(String post) {
+		this.post = post;
+	}
+
+	public List<Reply> getReplys() {
+		return replys;
+	}
+
+	public void setReplys(List<Reply> replys) {
+		this.replys = replys;
+	}
+
+	public static void main(String[] args) {
+		ONE_POST=new Message(); 
+	}
+
+}
+
+class Reply {
+	private String message;
+	private Reactions reaction;
+	private List<Reply> reply;
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	public Reactions getReaction() {
+		return reaction;
+	}
+
+	public void setReaction(Reactions reaction) {
+		this.reaction = reaction;
+	}
+
+	public List<Reply> getReply() {
+		return reply;
+	}
+
+	public void setReply(List<Reply> reply) {
+		this.reply = reply;
+	}
+}
+
+enum Reactions {
+	SMIYLY, CRY
+}

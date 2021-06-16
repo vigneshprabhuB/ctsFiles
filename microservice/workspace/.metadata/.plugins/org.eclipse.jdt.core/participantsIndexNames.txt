@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+/Users/804266/AdmHackathon/microservice/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2844264759.index
+/beneficiary-service/src/main/java

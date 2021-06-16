@@ -1,0 +1,17 @@
+package com.project.cts;
+
+public class StaticClass {
+	
+	private static int count=0;
+	
+	static {
+		
+	}
+	{
+		System.out.println("Object is created...");
+	}
+
+	private static int getCount() {
+		return count++;
+	}
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="beneficiary-service"/>
+<aop-project name="login-service"/>
+<aop-project name="eureka-naming-service-provider"/>
+<aop-project name="banking-transactions"/>
+<aop-project name="runphase-cloud-config-server-new"/>
+<aop-project name="netflix-zuul-api-gateway-server_netflix-zuul-api-gateway-server"/>
+<aop-project name="runphase-cloud-config-server"/>
+</aop-reference-model>

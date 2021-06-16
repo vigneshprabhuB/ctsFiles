@@ -1,0 +1,20 @@
+package com.project.cts;
+
+import java.util.List;
+
+public class Message {
+
+	private String post;
+	
+	private List<Reply>replys;
+
+
+
+}
+
+class Reply{
+	private message;
+}
+
+
+

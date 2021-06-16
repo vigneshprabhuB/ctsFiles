@@ -1,0 +1,28 @@
+package codeLabs.entities;
+
+public class Tax {
+
+	public Tax(String itemType, float gstTax) {
+		
+		this.itemType = itemType;
+		this.gstTax = gstTax;
+	}
+	private String itemType;
+	private float gstTax;
+	
+	
+	public String getItemType() {
+		return itemType;
+	}
+	public void setItemType(String itemType) {
+		this.itemType = itemType;
+	}
+	public float getGstTax() {
+		return gstTax;
+	}
+	public void setGstTax(float gstTax) {
+		this.gstTax = gstTax;
+	}
+	
+
+}

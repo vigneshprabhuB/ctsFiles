@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var USER_DATA = 'USER_DATA';","map":{"version":3,"sources":["/Users/804266/AdmHackathon/react/react-native/wells/wells/components/constant.js"],"names":["USER_DATA"],"mappings":"AAAA,OAAO,IAAMA,SAAS,GAAC,WAAhB","sourcesContent":["export const USER_DATA='USER_DATA';"]},"metadata":{},"sourceType":"module"}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Users/804266/AdmHackathon/microservice/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+4164430257.index
+444723550.index
+1245600553.index
+2266547472.index
+3235327832.index
+715338347.index

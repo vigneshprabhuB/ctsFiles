@@ -1,0 +1,21 @@
+package codeLabs.entities;
+
+public class Discount {
+	private double minBillAmount;
+	private double discount;
+
+	public Discount(double minBillAmount, double discount) {
+
+		this.minBillAmount = minBillAmount;
+		this.discount = discount;
+	}
+
+	public double getMinBillAmount() {
+		return minBillAmount;
+	}
+
+	public double getDiscount() {
+		return discount;
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.vignesh.workout;
+
+public class Main3 {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		while (true) {
+			Thread thread = () -> System.out.println("Thread is renning");
+			thread.run();
+			Thread.sleep(1000);
+		}
+
+	}
+
+}

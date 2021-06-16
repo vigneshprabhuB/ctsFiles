@@ -1,0 +1,48 @@
+package com.project.cts;
+
+import java.util.List;
+
+public class Message {
+
+	private String post;
+
+
+	List<Reply> reply;
+	
+	public static void main(String[] args) {
+		Message msg=new Message();
+		msg.setPost("Good Morning!!!!");
+		
+	}
+
+	public String getPost() {
+		return post;
+	}
+
+	public void setPost(String post) {
+		this.post = post;
+	}
+
+	public String getComment() {
+		return comment;
+	}
+
+	public void setComment(String comment) {
+		this.comment = comment;
+	}
+
+	public List<Reply> getReply() {
+		return reply;
+	}
+
+	public void setReply(List<Reply> reply) {
+		this.reply = reply;
+	}
+
+}
+
+class Reply {
+	private String comment;
+
+}
+

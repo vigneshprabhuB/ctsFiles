@@ -1,0 +1,42 @@
+package codeLabs.entities;
+
+public class LineItem {
+	private Item item;
+	private Tax tax;
+	private int quantity;
+
+	private int price;
+
+	public Item getItem() {
+		return item;
+	}
+
+	public Tax getTax() {
+		return tax;
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+
+	public void setItem(Item item) {
+		this.item = item;
+	}
+
+	public void setTax(Tax tax) {
+		this.tax = tax;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
+}

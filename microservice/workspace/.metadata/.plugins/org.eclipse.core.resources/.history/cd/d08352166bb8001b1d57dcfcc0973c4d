@@ -1,0 +1,8 @@
+package codeLabs.entities;
+
+public class Item {
+	
+	private String itemCode;
+
+}
+

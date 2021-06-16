@@ -1,0 +1,87 @@
+package com.project.cts;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class Message {
+static Message ONE_POST;
+
+	private String post;
+
+	private List<Reply> replys;
+
+	public String getPost() {
+		return post;
+	}
+
+	public void setPost(String post) {
+		this.post = post;
+	}
+
+	public List<Reply> getReplys() {
+		return replys;
+	}
+
+	public void setReplys(List<Reply> replys) {
+		this.replys = replys;
+	}
+
+	@Override
+	public String toString() {
+		return "Message [post=" + post + ", replys=" + replys + "]";
+	}
+
+	public static void main(String[] args) {
+		ONE_POST=new Message(); 
+		ONE_POST.setPost("Hey Gays Good morning!!!!!!");
+		ONE_POST.setReplys(Arrays.asList(new Reply("English thriaddu poddaaa!!", Reactions.SMIYLY, Arrays.asList(new Reply("Ithu mattu theriummma!!!", Reactions.SMIYLY,Collections.EMPTY_LIST)))));
+        System.out.println(ONE_POST.toString());
+	}
+
+}
+
+class Reply {
+	private String message;
+	private Reactions reaction;
+	private List<Reply> reply;
+	
+	@Override
+	public String toString() {
+		return "Reply [message=" + message + ", reaction=" + reaction + ", reply=" + reply + "]";
+	}
+
+	public Reply(String message, Reactions reaction, List<Reply> reply) {
+		this.message = message;
+		this.reaction = reaction;
+		this.reply = reply;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	public Reactions getReaction() {
+		return reaction;
+	}
+
+	public void setReaction(Reactions reaction) {
+		this.reaction = reaction;
+	}
+
+	public List<Reply> getReply() {
+		return reply;
+	}
+
+	public void setReply(List<Reply> reply) {
+		this.reply = reply;
+	}
+}
+
+enum Reactions {
+	SMIYLY, CRY
+}

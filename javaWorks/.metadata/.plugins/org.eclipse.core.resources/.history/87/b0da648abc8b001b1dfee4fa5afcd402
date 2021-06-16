@@ -1,0 +1,16 @@
+package com.vignesh.workout;
+
+public class Main3 {
+
+	public static void main(String[] args) {
+		
+while(true) { 
+Runnable thread=()->System.out.println("Thread is renning");
+  thread.run();
+}
+
+	}
+	
+
+
+}

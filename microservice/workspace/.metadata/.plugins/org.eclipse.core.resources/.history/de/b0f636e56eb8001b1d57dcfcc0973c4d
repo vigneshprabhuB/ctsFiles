@@ -1,0 +1,9 @@
+package codeLabs.entities;
+
+import java.util.List;
+
+public class Bill {
+	
+	List<LineItem>lineItems;
+
+}

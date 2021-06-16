@@ -1,0 +1,43 @@
+package codeLabs.entities;
+
+import java.util.List;
+
+public class Bill {
+	
+	private float totalBill;
+	
+	private float amountAfterDiscount;
+	public float getTotalBill() {
+		return totalBill;
+	}
+
+	@Override
+	public String toString() {
+		return "Bill [totalBill=" + totalBill + ", discount=" + discount + ", lineItems=" + lineItems + "]";
+	}
+
+	public float getDiscount() {
+		return discount;
+	}
+
+	public void setTotalBill(float totalBill) {
+		this.totalBill = totalBill;
+	}
+
+	public void setDiscount(float discount) {
+		this.discount = discount;
+	}
+
+	private float discount;
+
+	private List<LineItem> lineItems;
+
+	public List<LineItem> getLineItems() {
+		return lineItems;
+	}
+
+	public void setLineItems(List<LineItem> lineItems) {
+		this.lineItems = lineItems;
+	}
+
+}

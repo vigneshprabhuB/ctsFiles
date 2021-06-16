@@ -1,0 +1,12 @@
+package com.project.cts;
+
+public class Message {
+
+	private String post;
+
+
+
+}
+
+
+
